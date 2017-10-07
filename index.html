@@ -1,0 +1,628 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <title>Loft-91</title>
+    <meta name="description" content="">
+    <link rel="shortcut icon" href="img/favicon/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" href="img/favicon/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="img/favicon/apple-touch-icon-114x114.png">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,700i,800" rel="stylesheet"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.4/css/select2.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <!--[if lt IE 9]>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/es5-shim/4.5.9/es5-shim.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    
+  </head>
+  <body>
+  	<aside>
+      <a href="#" class="toggle-mnu"><span></span></a>
+      <div class="sidebar-link">
+        <div class="sidebar-logo">
+          <svg class="icon icon-logo_small">
+              <use xlink:href="img/icons-svg/symbol/sprite.svg#logo_small"></use>
+          </svg>
+        </div>
+      </div>
+      <div class="sidebar-menu">
+        <div class="sidebar-menu-title">
+          <svg class="icon icon-logo_small">
+              <use xlink:href="img/icons-svg/symbol/sprite.svg#logo_small"></use>
+          </svg>
+        </div>
+        <ul class="menu">
+          <li class="menu-item"><a href="#header" class="menu-link">главная</a></li>
+          <li class="menu-item"><a href="#about" class="menu-link">о фотостудии</a></li>
+          <li class="menu-item"><a href="#equipment" class="menu-link">оборудование</a></li>
+          <li class="menu-item"><a href="#gallery" class="menu-link">фотогалерея</a></li>
+          <li class="menu-item">
+            <a href="#" class="menu-link">правила студии</a>
+            <ul class="submenu">
+              <li class="menu-item"><a class="menu-link" href="#">правила игры</a></li>
+              <li class="menu-item"><a class="menu-link" href="#">правила бегства</a></li>
+              <li class="menu-item"><a class="menu-link" href="#">прочие</a></li>
+            </ul>
+          </li>
+          <li class="menu-item"><a href="#booking" class="menu-link">бронирование</a></li>
+          <li class="menu-item">
+            <a href="#" class="menu-link">фотографы</a>
+            <ul class="submenu">
+              <li class="menu-item"><a class="menu-link" href="#">Михаил Автофокусов</a></li>
+              <li class="menu-item"><a class="menu-link" href="#">Григорий Боке</a></li>
+              <li class="menu-item"><a class="menu-link" href="#">Филипп Хромакей</a></li>
+            </ul>
+          </li>
+          <li class="menu-item"><a href="#news" class="menu-link">новости</a></li>
+          <li class="menu-item"><a href="#contacts" class="menu-link">контакты</a></li>
+        </ul>
+      </div>
+    </aside>
+    
+    <div class="main-content">
+      <header id="header">
+        <div class="header__top">
+          <div class="container">
+            <div class="row clearfix">
+              <div class="col-md-10 col-lg-offset-1 col-md-offset-0">
+                <div class="header__top-inner">
+                  <div class="header__top-name">Фотостудия Loft91</div>
+                  <div class="header__top-call">
+                    <div class="phone">
+                      <svg class="icon icon-phone">
+                          <use xlink:href="img/icons-svg/symbol/sprite.svg#phone"></use>
+                      </svg>
+                      <span>(391) 214-30-91</span>
+                    </div>
+                    <a href="#callback-form" class="callback popup-with-form">заказать звонок</a>
+                  </div>
+                  
+                  <div class="header__top-location">
+                    <svg class="icon icon-location">
+                        <use xlink:href="img/icons-svg/symbol/sprite.svg#location"></use>
+                    </svg>
+                    <span>г. Красноярск,<br>ул. Судостроительная, 91</span>
+                  </div>
+                  
+                  <div class="header__top-socials">
+                    <a href="#">
+                      <i class="fa fa-vk"></i>
+                    </a>
+                    <a href="#">
+                      <i class="fa fa-instagram"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="header__bottom">
+          <div class="owl-carousel" id="header-car">
+            <div class="slide">
+              <div class="slide-bg" style="background-image: url(img/slider-1.jpg);"></div>
+              <div class="slide-content">
+               
+              </div>
+            </div>
+          
+            <div class="slide">
+              <div class="slide-bg" style="background-image: url(img/slider-2.jpg);"></div>
+              <div class="slide-content">
+                
+              </div>
+            </div>
+          </div><!-- carousel -->
+          <div class="main-logo">
+            <svg class="icon icon-logo_big">
+                <use xlink:href="img/icons-svg/symbol/sprite.svg#logo_big"></use>
+            </svg>
+          </div>
+        </div>
+      </header>
+
+      <section class="about" id="about">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6">
+              <div class="about-visual">
+                <img src="img/about-vis.jpg" alt="alt">
+                <!-- <img src="img/bg-dotted.png" alt="alt" class="about-visual__bg"> -->
+              </div>
+            </div>
+            <div class="col-md-6">
+              <h2 class="title-left">О фотостудии <span>Loft91</span></h2>
+              <div class="about__text">
+                <p>Loft 91 — это новое фотопространство в Красноярске в теплом стиле "Лофт" для людей любящих фотографию, профессионалов-фотографов и просто творческих людей :)</p>
+                <p>Мы всегда открыты для различных проектов и идей. Возможна аренда фотостудии под проведение мероприятий различного характера, такие как, дни рождения, выездные регистрации, праздники и многое другое.</p>
+                <ul>
+                  <li><a href="#">Правила фотостудии</a></li>
+                  <li><a href="#">Предоплата и аренда студии</a></li>
+                  <li><a href="#">Мероприятия и праздники</a></li>
+                  <li><a href="#">Виды съемок</a></li>
+                </ul>
+
+              </div>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="about__icons">
+              <div class="about__icons-item">
+                <svg class="icon icon-icon-lamp">
+                    <use xlink:href="img/icons-svg/symbol/sprite.svg#lamp"></use>
+                </svg>
+                <div class="about__icons-text">Современный<br>стиль лофт</div>
+              </div>
+
+              <div class="about__icons-item">
+                <svg class="icon icon-icon-floor">
+                    <use xlink:href="img/icons-svg/symbol/sprite.svg#floor"></use>
+                </svg>
+                <div class="about__icons-text">Уникальный<br>паркетный пол</div>
+              </div>
+
+              <div class="about__icons-item">
+                <img src="img/daylight.png" alt="alt">
+                <div class="about__icons-text">Дневной<br>свет</div>
+              </div>
+
+              <div class="about__icons-item hall">
+                <img src="img/hall.png" alt="alt">
+                <div class="about__icons-text">Просторный<br>съемочный зал</div>
+              </div>
+
+              <div class="about__icons-item">
+                <svg class="icon icon-icon-dressing">
+                    <use xlink:href="img/icons-svg/symbol/sprite.svg#dressing"></use>
+                </svg>
+                <div class="about__icons-text">Свободный доступ<br>в гримерку</div>
+              </div>
+
+              <div class="about__icons-item">
+                <svg class="icon icon-icon-parking">
+                    <use xlink:href="img/icons-svg/symbol/sprite.svg#parking"></use>
+                </svg>
+                <div class="about__icons-text">Круглосуточный доступ<br>и свободная парковка</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="gallery" id="gallery">
+      <div class="container-fluid">
+          <div class="row">
+            <h2>Фотогалерея</h2>
+          </div>
+          <div class="row">
+            <div class="col-md-3 col-sm-4 no-paddings">
+              <a href="img/gall-01.jpg" class="gallery-inner">
+                <i class="fa fa-search-plus" aria-hidden="true"></i>
+                <img src="img/gall-01.jpg" alt="">
+              </a>
+            </div>
+
+            <div class="col-md-3 col-sm-4 no-paddings">
+              <a href="img/gall-02.jpg" class="gallery-inner">
+                <i class="fa fa-search-plus" aria-hidden="true"></i>
+                <img src="img/gall-02.jpg" alt="">
+              </a>
+            </div>
+
+            <div class="col-md-3 col-sm-4 no-paddings">
+              <a href="img/gall-03.jpg" class="gallery-inner">
+                <i class="fa fa-search-plus" aria-hidden="true"></i>
+                <img src="img/gall-03.jpg" alt="">
+              </a>
+            </div>
+
+            <div class="col-md-3 col-sm-4 no-paddings">
+              <a href="img/gall-04.jpg" class="gallery-inner">
+                <i class="fa fa-search-plus" aria-hidden="true"></i>
+                <img src="img/gall-04.jpg" alt="">
+              </a>
+            </div>
+
+         
+
+          
+            <div class="col-md-3 col-sm-4 no-paddings">
+              <a href="img/gall-04.jpg" class="gallery-inner">
+                <i class="fa fa-search-plus" aria-hidden="true"></i>
+                <img src="img/gall-04.jpg" alt="">
+              </a>
+            </div>
+
+            <div class="col-md-3 col-sm-4 no-paddings">
+              <a href="img/gall-03.jpg" class="gallery-inner">
+                <i class="fa fa-search-plus" aria-hidden="true"></i>
+                <img src="img/gall-03.jpg" alt="">
+              </a>
+            </div>
+
+            <div class="col-md-3 col-sm-4 no-paddings">
+              <a href="img/gall-01.jpg" class="gallery-inner">
+                <i class="fa fa-search-plus" aria-hidden="true"></i>
+                <img src="img/gall-01.jpg" alt="">
+              </a>
+            </div>
+
+            <div class="col-md-3 col-sm-4 no-paddings">
+              <a href="img/gall-02.jpg" class="gallery-inner">
+                <i class="fa fa-search-plus" aria-hidden="true"></i>
+                <img src="img/gall-02.jpg" alt="">
+              </a>
+            </div>
+          
+
+          
+            <div class="col-md-3 col-sm-4 no-paddings">
+              <a href="img/gall-01.jpg" class="gallery-inner">
+                <i class="fa fa-search-plus" aria-hidden="true"></i>
+                <img src="img/gall-01.jpg" alt="">
+              </a>
+            </div>
+
+            <div class="col-md-3 col-sm-4 no-paddings">
+              <a href="img/gall-02.jpg" class="gallery-inner">
+                <i class="fa fa-search-plus" aria-hidden="true"></i>
+                <img src="img/gall-02.jpg" alt="">
+              </a>
+            </div>
+
+            <div class="col-md-3 col-sm-4 no-paddings">
+              <a href="img/gall-04.jpg" class="gallery-inner">
+                <i class="fa fa-search-plus" aria-hidden="true"></i>
+                <img src="img/gall-04.jpg" alt="">
+              </a>
+            </div>
+
+            <div class="col-md-3 col-sm-4 no-paddings">
+              <a href="img/gall-03.jpg" class="gallery-inner">
+                <i class="fa fa-search-plus" aria-hidden="true"></i>
+                <img src="img/gall-03.jpg" alt="">
+              </a>
+            </div>
+          </div><!-- row -->
+        </div>
+      </section>
+
+      <section class="equipment" id="equipment">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6">
+              <h2 class="title-left">Оборудование</h2>
+              <p>Мы всегда открыты для различных проектов и идей. Возможна аренда фотостудии под проведение мероприятий различного характера, такие как, дни рождения, выездные регистрации, праздники и многое другое.</p>
+            </div>
+          </div><!-- row -->
+
+          <div class="row">
+            <div class="equipment-items">
+              <div class="equipment-item">
+                <div class="equipment-img-wrap"><img src="img/equipment-01.jpg" alt="alt"></div>
+                <div class="equipment-text">Zoom<br>reflector</div>
+              </div>
+              <div class="equipment-item">
+                <div class="equipment-img-wrap"><img src="img/equipment-02.jpg" alt="alt"></div>
+                <div class="equipment-text">Моноблок Profoto <br>D1 500 Air — 4 штуки</div>
+              </div>
+
+              <div class="equipment-item">
+                <div class="equipment-img-wrap"><img src="img/equipment-03.jpg" alt="alt"></div>
+                <div class="equipment-text">Октобокс <br>Creative Light 120</div>
+              </div>
+
+              <div class="equipment-item">
+                <div class="equipment-img-wrap"><img src="img/equipment-04.jpg" alt="alt"></div>
+                <div class="equipment-text">Портретная <br>тарелка Profoto</div>
+              </div>
+
+              <div class="equipment-item">
+                <div class="equipment-img-wrap"><img src="img/equipment-05.jpg" alt="alt"></div>
+                <div class="equipment-text">Радиосинхронизатор <br>Air Sync</div>
+              </div>
+            </div>
+
+            <div class="equipment-items">
+              <div class="equipment-item">
+                <div class="equipment-img-wrap"><img src="img/equipment-01.jpg" alt="alt"></div>
+                <div class="equipment-text">Zoom<br>reflector</div>
+              </div>
+              <div class="equipment-item">
+                <div class="equipment-img-wrap"><img src="img/equipment-02.jpg" alt="alt"></div>
+                <div class="equipment-text">Моноблок Profoto <br>D1 500 Air — 4 штуки</div>
+              </div>
+
+              <div class="equipment-item">
+                <div class="equipment-img-wrap"><img src="img/equipment-03.jpg" alt="alt"></div>
+                <div class="equipment-text">Октобокс <br>Creative Light 120</div>
+              </div>
+
+              <div class="equipment-item">
+                <div class="equipment-img-wrap"><img src="img/equipment-04.jpg" alt="alt"></div>
+                <div class="equipment-text">Портретная <br>тарелка Profoto</div>
+              </div>
+
+              <div class="equipment-item">
+                <div class="equipment-img-wrap"><img src="img/equipment-05.jpg" alt="alt"></div>
+                <div class="equipment-text">Радиосинхронизатор <br>Air Sync</div>
+              </div>
+            </div>
+          </div><!-- row -->
+        </div>
+      </section><!-- equipment -->
+
+      <section class="equipment">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6">
+              <h2 class="title-left">Аксессуары</h2>
+              <p>Мы всегда открыты для различных проектов и идей. Возможна аренда фотостудии под проведение мероприятий различного характера, такие как, дни рождения, выездные регистрации, праздники и многое другое.</p>
+            </div>
+          </div><!-- row -->
+
+          <div class="row">
+            <div class="equipment-items">
+              <div class="equipment-item">
+                <div class="equipment-img-wrap"><img src="img/equipment-01.jpg" alt="alt"></div>
+                <div class="equipment-text">Кресло</div>
+              </div>
+              <div class="equipment-item">
+                <div class="equipment-img-wrap"><img src="img/equipment-02.jpg" alt="alt"></div>
+                <div class="equipment-text">Стулья</div>
+              </div>
+
+              <div class="equipment-item">
+                <div class="equipment-img-wrap"><img src="img/equipment-03.jpg" alt="alt"></div>
+                <div class="equipment-text">Кресло</div>
+              </div>
+
+              <div class="equipment-item">
+                <div class="equipment-img-wrap"><img src="img/equipment-04.jpg" alt="alt"></div>
+                <div class="equipment-text">Стул</div>
+              </div>
+
+              <div class="equipment-item">
+                <div class="equipment-img-wrap"><img src="img/equipment-05.jpg" alt="alt"></div>
+                <div class="equipment-text">Кресло</div>
+              </div>
+            </div>
+
+            <div class="equipment-items">
+              <div class="equipment-item">
+                <div class="equipment-img-wrap"><img src="img/equipment-01.jpg" alt="alt"></div>
+                <div class="equipment-text">Кресло</div>
+              </div>
+              <div class="equipment-item">
+                <div class="equipment-img-wrap"><img src="img/equipment-02.jpg" alt="alt"></div>
+                <div class="equipment-text">Стулья</div>
+              </div>
+
+              <div class="equipment-item">
+                <div class="equipment-img-wrap"><img src="img/equipment-03.jpg" alt="alt"></div>
+                <div class="equipment-text">Кресло</div>
+              </div>
+
+              <div class="equipment-item">
+                <div class="equipment-img-wrap"><img src="img/equipment-04.jpg" alt="alt"></div>
+                <div class="equipment-text">Стул</div>
+              </div>
+
+              <div class="equipment-item">
+                <div class="equipment-img-wrap"><img src="img/equipment-05.jpg" alt="alt"></div>
+                <div class="equipment-text">Кресло</div>
+              </div>
+            </div>
+          </div><!-- row -->
+        </div>
+      </section><!-- equipment -->
+
+      <section class="booking" id="booking">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <h2 class="title-left">Забронировать студию</h2>
+            </div>
+          </div>
+        </div><!-- container -->
+
+        <div class="container">
+          <form action="#" class="booking-form">
+              <div class="row">
+                <div class="col-lg-4 col-md-6 col-sm-6">
+                  <input type="text" class="tooltipster" name="name" placeholder="Представьтесь" title="Пожалуйста, заполните это поле">
+                  
+                </div>
+                
+                <div class="col-lg-5 col-md-6 col-sm-6">
+                   <input type="tel" class="tooltipster" name="phone" placeholder="Номер телефона" title="Пожалуйста, заполните это поле">
+                </div>
+              </div><!-- row -->
+
+              <div class="row">
+                <div class="col-lg-4 col-md-6 col-sm-6">
+                  <select name="view" id="shooting">
+                    <option value="0">Семейная фотосессия</option>
+                    <option value="1">Свадебная съемка</option>
+                    <option value="2">Детская фотосессия</option>
+                    <option value="2">Фотосессия индивидуальная + визажист</option>
+                  </select>
+                </div>
+                <div class="col-lg-5 col-md-6 col-sm-6">
+                 
+                  <div class="private-alert">Вы подтверждаете, что принимаете <a href="#">Польз-е соглашение</a>
+                и соглашаетесь на обработку перс.данных.</div>
+                </div>
+              </div><!-- row -->
+
+             
+              <div class="row">
+                <div class="col-md-12">
+                  <button type="submit" class="button my-form__submit">Забронировать</button>
+                </div>
+              </div><!-- row -->
+             </form>
+          </div><!-- container -->
+
+      </section>
+
+      <section class="testimonials">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <h2>Отзывы клиентов</h2>
+            </div>
+          </div>
+          <div class="row">
+          <div class="owl-carousel" id="testim-car">
+              <div class="testim-slide">
+                <div class="col-lg-8 col-lg-offset-2">
+                  <div class="testim-slide__img-wrap"><img src="img/testim-01.jpg" alt="alt"></div>
+                  <div class="testim-slide__name">Алёна Исаева</div>
+                  <div class="testim-slide__text">Безумно крутая студия. Обожаю фотаться у вас, всегда получаются красивые и стильные фото. <br> Классный стиль лофта и аксессуары единственные в своем роде в городе! <br>
+                  Обожаю лофт и теплый ламповый свет :)</div>
+                </div>
+              </div>
+
+              <div class="testim-slide">
+                <div class="col-lg-8 col-lg-offset-2">
+                  <div class="testim-slide__img-wrap"><img src="img/testim-01.jpg" alt="alt"></div>
+                  <div class="testim-slide__name">Алёна Исаева</div>
+                  <div class="testim-slide__text">Безумно крутая студия. Обожаю фотаться у вас, всегда получаются красивые и стильные фото. <br> Классный стиль лофта и аксессуары единственные в своем роде в городе! <br>
+                  Обожаю лофт и теплый ламповый свет :)</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section><!-- testim -->
+
+      <section class="news" id="news">
+        <div class="container">
+          <div class="row">
+            <h2>Новости</h2>
+          </div>
+          <div class="row">
+            <div class="col-md-4 no-paddings">
+              <div class="news-item">
+                <img src="img/gall-02.jpg" alt="alt">
+                <a href="#" class="news-annonce"><span>Это новое фотопространство в Красноярске в теплом стиле "Лофт" для людей любящий Далеко-далеко за словесными горами в стране, гласных и согласных живут рыбные тексты. О первую заманивший составитель. Семантика он даже, домах точках ее маленькая вскоре которой бросил, злых своих последний о, маленький рыбными?</span></a>
+              </div>
+            </div>
+
+            <div class="col-md-4 no-paddings">
+              <div class="news-item">
+                <img src="img/gall-02.jpg" alt="alt">
+                <a href="#" class="news-annonce"><span>Это новое фотопространство в Красноярске в теплом стиле "Лофт" для людей любящий Далеко-далеко за словесными горами в стране, гласных и согласных живут рыбные тексты. О первую заманивший составитель. Семантика он даже, домах точках ее маленькая вскоре которой бросил, злых своих последний о, маленький рыбными?</span></a>
+              </div>
+            </div>
+
+            <div class="col-md-4 no-paddings">
+              <div class="news-item">
+                <img src="img/gall-02.jpg" alt="alt">
+                <a href="#" class="news-annonce"><span>Это новое фотопространство в Красноярске в теплом стиле "Лофт" для людей любящий Далеко-далеко за словесными горами в стране, гласных и согласных живут рыбные тексты. Пунктуация, букв повстречался живет они путь решила которой прямо, на берегу дороге это маленькая, текстов но текста страну буквенных силуэт семантика?</span></a>
+              </div>
+            </div>
+          </div><!-- row -->
+
+          <div class="row">
+            <div class="col-md-12 text-center">
+              <a href="#" class="all-news">Все новости</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="contacts" id="contacts">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2231.9953482363526!2d92.84421551550469!3d55.98410988159632!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5cd7b1fb2b86562f%3A0x5fcc46123dda4a1!2z0YPQuy4g0KHRg9C00L7RgdGC0YDQvtC40YLQtdC70YzQvdCw0Y8sIDkxLzEsINCa0YDQsNGB0L3QvtGP0YDRgdC6LCDQmtGA0LDRgdC90L7Rj9GA0YHQutC40Lkg0LrRgNCw0LksIDY2MDAxMg!5e0!3m2!1sru!2sru!4v1507097271591" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+
+        <div class="contacts-inner">
+          <div class="container">
+            <div class="row">
+            <div class="col-lg-4 col-md-5 col-sm-6 contact-transf">
+              <div class="contacts-data">
+                <h2 class="title-left">Контакты</h2>
+                <div class="contacts-item contacts-location">
+                  <div class="contacts-icon awesome"></div>
+                  <span>г. Красноярск, мкр.Пашенный,
+                    ул.Судостроительная, 91
+                    <span class="contacts-separ">(вход со двора, налево)</span>
+                  </span> 
+                </div>
+
+                <div class="contacts-item contacts-phone">
+                  <div class="contacts-icon awesome"></div>
+                   <span>+7 (391) 214-30-91
+                        <span class="contacts-separ">Работаем с 10:00 до 22:00
+без выходных</span>
+                   </span> 
+                </div>
+
+                <div class="contacts-item contacts-mail">
+                  <div class="contacts-icon awesome"></div>
+                  <a href="#" class="link">nfo@loft91.ru</a>
+                  <a href="#" class="link contacts-icon awesome"></a>
+                  <a href="#" class="link contacts-icon awesome"></a>
+                  <a href="#" class="link contacts-icon awesome"></a>
+                </div>
+                <i class="fa fa-times" aria-hidden="true"></i>
+
+              </div>
+            </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <form action="#" id="callback-form" class="hidden-form mfp-hide white-popup-block" method="GET">
+      <h2>Заказать звонок</h2>
+      <label class="my-form__label">
+        <input type="text" class="my-form__input tooltipster" name="name" placeholder="Представьтесь" title="Пожалуйста, заполните это поле"/>
+      </label>
+      <label class="my-form__label">
+        <input type="tel" class="my-form__input tooltipster" name="phone" placeholder="Номер телефона" title="Пожалуйста, заполните это поле"/>
+      </label>
+      <div class="callback-form__concent">
+        <label>
+          <input type="checkbox" checked>
+          <span class="check-custom tooltipster" title="Для продолжения, пожалуйста, установите этот флажок"></span>
+          <span class="check-text">Даю разрешение на рассылку
+акций и спецпредложения
+<a href="#" class="link">политика конфидециальности</a></span>
+          
+        </label>
+      </div>
+      <div class="callback-form__bottom">
+        <button type="submit" class="button my-form__submit">Заказать звонок</button>
+      </div>
+    </form>
+    <div class="loader">
+      <div class="preloader" style="height:44px;width:44px">
+        <div class="part7 p1"></div>
+        <div class="part7 p2"></div>
+        <div class="part7 p3"></div>
+        <div class="part7 p4"></div>
+      </div>
+    </div>
+    <!--if lt IE 9
+    script(src='libs/html5shiv/es5-shim.min.js')
+    script(src='libs/html5shiv/html5shiv.min.js')
+    script(src='libs/html5shiv/html5shiv-printshiv.min.js')
+    script(src='libs/respond/respond.min.js')
+    -->
+    <script src="js/libs.min.js"></script>
+    <script src="libs/waypoints/waypoints.min.js"></script>
+    
+    <script src="js/common.js"></script>
+  </body>
+</html>
